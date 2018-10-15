@@ -4,7 +4,7 @@ export const DISHES: Dish[] = [
     {
         id: '0',
         name: 'Uthappizza',
-        image: '/assets/images/uthappizza.png',
+        image: 'https://images.pexels.com/photos/532779/pexels-photo-532779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         category: 'mains',
         featured: true,
         label: 'Hot',
@@ -47,7 +47,7 @@ export const DISHES: Dish[] = [
     {
         id: '1',
         name: 'Zucchipakoda',
-        image: '/assets/images/zucchipakoda.png',
+        image: 'https://images.pexels.com/photos/1005372/pexels-photo-1005372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         category: 'appetizer',
         featured: false,
         label: '',
@@ -89,7 +89,7 @@ export const DISHES: Dish[] = [
     {
         id: '2',
         name: 'Vadonut',
-        image: '/assets/images/vadonut.png',
+        image: 'https://images.pexels.com/photos/374595/pexels-photo-374595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         category: 'appetizer',
         featured: false,
         label: 'New',
@@ -131,7 +131,7 @@ export const DISHES: Dish[] = [
     {
         id: '3',
         name: 'ElaiCheese Cake',
-        image: '/assets/images/elaicheesecake.png',
+        image: 'https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         category: 'dessert',
         featured: false,
         label: '',

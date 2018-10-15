@@ -4,7 +4,7 @@ export const PROMOTIONS: Promotion[] = [
   {
     id: '0',
     name: 'Weekend Grand Buffet',
-    image: '/assets/images/buffet.png',
+    image: 'https://images.pexels.com/photos/8110/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     label: 'New',
     price: '19.99',
     featured: true,
