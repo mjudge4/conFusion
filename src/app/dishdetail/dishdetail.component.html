@@ -26,21 +26,21 @@
 
   </div>
 
-  <div fxFlex="40">
-  	<h3> Comments </h3>
+  <div fxFlex="40">	
     <mat-list *ngIf="dish">
+      <h3> Comments </h3>
       <mat-grid-tile-footer *ngFor="let com of dish.comments">
-      	<ul style="list-style-type:none">
-	      	<p>
-		      <li> {{com.comment}} </li>
-		      <li> {{com.rating}} stars</li>		
-		      <li> -- {{com.author}} {{com.date | date}} </li>
-		   </p>
-		   <br>
-  		</ul>
- 
+        <ul style="list-style-type:none">
+          <p>
+          <li> {{com.comment}} </li>
+          <li> {{com.rating}} stars</li>
+          <li> -- {{com.author}} {{com.date | date}} </li>
+          </p>
+          <br>
+        </ul>
+
       </mat-grid-tile-footer>
-  
+
     </mat-list>
   </div>
 
